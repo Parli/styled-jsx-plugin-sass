@@ -15,10 +15,10 @@ Install the package first.
 npm install --save-dev styled-jsx-plugin-sass
 ```
 
-Install the `node-sass` version you need (it is a peer dependency).
+Install the `sass` version you need (it is a peer dependency).
 
 ```bash
-npm install --save-dev node-sass
+npm install --save-dev sass
 ```
 
 Next, add `styled-jsx-plugin-sass` to the `styled-jsx`'s `plugins` in your babel configuration:
@@ -34,9 +34,9 @@ Next, add `styled-jsx-plugin-sass` to the `styled-jsx`'s `plugins` in your babel
 }
 ```
 
-## Node-sass options
+## sass options
 
-Node-sass can be configured using `sassOptions`. This is useful for setting options such as `includePaths` or `precision`.
+sass can be configured using `sassOptions`. This is useful for setting options such as `includePaths` or `precision`.
 
 ```json
 {
