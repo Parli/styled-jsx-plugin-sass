@@ -2,7 +2,6 @@
   "name": "styled-jsx-plugin-sass",
   "version": "1.0.0",
   "description": "Plugin to add Sass support to styled-jsx",
-  "main": "index.js",
   "scripts": {
     "test": "mocha test.js"
   },
@@ -21,6 +20,9 @@
     "url": "https://github.com/giuseppeg/styled-jsx-plugin-sass/issues"
   },
   "homepage": "https://github.com/giuseppeg/styled-jsx-plugin-sass#readme",
+  "files": [
+    "index.js"
+  ],
   "peerDependencies": {
     "sass": "^1.30.0"
   },
